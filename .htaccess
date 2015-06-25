@@ -1,0 +1,11 @@
+#AuthType Basic
+#AuthName "Test"
+#AuthUserFile /kunden/233134_10119/bosb/.htpasswd
+#require valid-user
+#ErrorDocument 404 /htdocs_de/index.php?id=index
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?query_string=$1 [L,QSA]

@@ -70,16 +70,12 @@
 .o-menu {
   width: 100%;
   line-height: 130%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .o-menu--small {
   font-size: 1.5rem;
-}
-.o-menu__item {
-  width: 100%;
-}
-.o-menu__sub_item {
-  width: 100%;
-  padding-left: 1.5rem;
 }
 .o-menu__link {
   color: #7d7d82;
@@ -328,24 +324,20 @@ img {
   flex: 0 0 100%;
 }
 #menue li {
-  float: left;
   text-align: center;
-}
-.passive,
-.passive:hover,
-.active {
   float: left;
   padding: 0px 20px 10px 20px;
 }
-.passive {
+#menue li a {
   border-bottom: 3px solid #ffffff;
   color: #7d7d82;
   text-decoration: none;
 }
-.passive:hover {
+#menue li a:hover {
   border-bottom: 3px solid #0065a4;
 }
-.active {
+#menue li a.is-active,
+#menue li a.is-active:hover {
   border-bottom: 3px solid #0065a4;
   color: #2d2c2c;
   text-decoration: none;

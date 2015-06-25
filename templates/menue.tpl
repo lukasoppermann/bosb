@@ -1,9 +1,5 @@
 <ul id="menue">
 	{foreach from=$menu key=id item=item}
-		<!-- {if $menue.seite eq $url} -->
-		<li><a href="{$item.path}" class="passive">{$item.label}</a></li>
-		<!-- {else}
-		<li><a href="{$menue.path}?id={$menue.seite}" class="passive">{$menue.label}</a></li>
-		{/if} -->
+		<li class="o-menu__item"><a href="{$item.path}" class="o-menu__link {$router->is_active($item.path)}">{$item.label}</a></li>
 	{/foreach}
 </ul>

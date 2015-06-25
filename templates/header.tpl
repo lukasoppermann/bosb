@@ -10,7 +10,8 @@
 	<link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="css/app.css" media="screen">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-	<title>Beratungssozietät Oppermann - {$titel}</title>
+	{assign var='title' value=$title|default:'Organiastionsberatung, Coaching, Consulting'}
+	<title>{$title} | Beratungssozietät Oppermann</title>
 </head>
 <body>
 	<div id="body">

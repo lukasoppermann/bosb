@@ -4,4 +4,4 @@ vendor/
 /workbench
 /public/build
 .env
-/templates_de_c
+templates_c/
