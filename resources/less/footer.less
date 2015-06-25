@@ -1,0 +1,34 @@
+@import "colors.less";
+
+// TODO: refactor to use menu in footer instead
+
+.o-footer{
+  float: left;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+.o-footer__nav{
+  width: 100%;
+  list-style: none;
+	font: 1.2rem,sans-serif;
+	color: @medium-light-grey;
+  float: left;
+  text-align:center;
+  padding: 1rem;
+}
+.o-footer__nav_item{
+	display: inline-block;
+	margin-top: 15px;
+	padding-left: 5px;
+}
+.o-footer__nav_item--small{
+  font-size: 8px;
+}
+.o-footer__nav_item a{
+	color: inherit;
+	text-decoration: none;
+  border: none;
+}
+.o-footer__nav_item a:hover{
+	color: #0065a4;
+}
