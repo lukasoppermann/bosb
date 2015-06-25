@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-06-25 07:44:28
+<?php /* Smarty version 3.1.27, created on 2015-06-25 08:02:12
          compiled from "/home/vagrant/Code/bosb/templates/index.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:200390010558bb15c01fbf4_79454360%%*/
+/*%%SmartyHeaderCode:566490636558bb5840ca595_39646568%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,20 +9,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b8986ee14768f8ab2c44134f10d62e6d50e8c169' => 
     array (
       0 => '/home/vagrant/Code/bosb/templates/index.tpl',
-      1 => 1435218689,
+      1 => 1435219630,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '200390010558bb15c01fbf4_79454360',
+  'nocache_hash' => '566490636558bb5840ca595_39646568',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_558bb15c068ba6_51093965',
+  'unifunc' => 'content_558bb5840dd259_26152467',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_558bb15c068ba6_51093965')) {
-function content_558bb15c068ba6_51093965 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_558bb5840dd259_26152467')) {
+function content_558bb5840dd259_26152467 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '200390010558bb15c01fbf4_79454360';
+$_smarty_tpl->properties['nocache_hash'] = '566490636558bb5840ca595_39646568';
 ?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("../templates/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
