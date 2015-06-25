@@ -5,7 +5,5 @@
 #ErrorDocument 404 /htdocs_de/index.php?id=index
 
 RewriteEngine On
-RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?query_string=$1 [L,QSA]
+RewriteCond %{HTTP_HOST} ^(www\.)?bosb\.de$
+RewriteRule ^$ http://bosb.de/htdocs_de/index.php?id=index [L,R=301]
