@@ -2,11 +2,11 @@
 $menu[0] = array(
   'label' => 'Home',
   'path'  => '/home',
-  'seite' => 'home'
+  'title' => 'Organiastionsberatung, Coaching, Consulting'
 );
 
 $menu[1] = array(
-  'label' => 'Home',
-  'path'  => '/home',
-  'seite' => 'home'
+  'label' => 'Über uns',
+  'path'  => '/ueber_uns',
+  'seite' => 'Über die Beratungssozietät Oppermann'
 );
