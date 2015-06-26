@@ -2,7 +2,7 @@
 {include file="../templates/header.tpl"}
 
 <h1 class="o-headline o-headline--primary">Wir übernehmen...</h1>
-<div class="o-image o-image--padded o-image--right"><img src="media/welcome_Beratungssozietaet_Oppermann.jpg" alt="Beratungssozietät Oppermann" /></div>
+<div class="o-image o-image--padded o-image--right"><img src="../media/welcome_Beratungssozietaet_Oppermann.jpg" alt="Beratungssozietät Oppermann" /></div>
 
 <p class="o-paragraph">Herzlich Willkommen in der Beratungssozietät Oppermann. Nachdem im März die Beratungssozietät Oppermann Schenk aufgelöst wurde, setze ich nahtlos meine persönliche Arbeit mit einem neuem und kompetenten Team fort und wir freuen uns, wenn Sie diese personelle Veränderung begrüßen.</p>
 

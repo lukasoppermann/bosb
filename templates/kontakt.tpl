@@ -1,6 +1,6 @@
 
 	{include file="../templates/header.tpl"}
-	<div class="o-image o-image--padded o-image--right"><img src="media/Beratungssozietaet_Oppermann_Kontakt.jpg" alt="Beratungssozietät Oppermann" /></div>
+	<div class="o-image o-image--padded o-image--right"><img src="../media/Beratungssozietaet_Oppermann_Kontakt.jpg" alt="Beratungssozietät Oppermann" /></div>
 <h1 class="o-headline o-headline--primary">Kontakt</h1>
 
 			Beratungssozietät Oppermann<br />

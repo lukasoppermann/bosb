@@ -21,7 +21,7 @@
 			<br /><br /><br />
 		</td>
 		<td id="carriculum_table_top_right">
-			<img src="media/jutzi.jpg" alt="Dr. Katrin Jutzi">
+			<img src="../media/jutzi.jpg" alt="Dr. Katrin Jutzi">
 		</td>
 	</tr>
 </table>

@@ -9,8 +9,8 @@
 				<li class="o-list__item">User Experience Consultant</li>
 				<li class="o-list__item">Freier Dozent</li>
 			</ul>
+			<p class="o-paragraph">veare, Einzelunternehmer</p>
 			<p class="o-paragraph">Fester freier Mitarbeiter der Beratungssozietät Oppermann</p>
-			<p class="o-paragraph">Einzelunternehmer</p>
 			<h3 class="o-headline">Aktuelle Arbeitsfelder</h3>
 			<ul class="o-list o-list--none">
 				<li class="o-list__item">Produktentwicklung & Produkt Vision</li>
@@ -22,7 +22,7 @@
 			<br /><br /><br />
 		</td>
 		<td id="carriculum_table_top_right">
-			<img src="media/lukas_oppermann.jpg" alt="Lukas Oppermann">
+			<img src="../media/lukas_oppermann.jpg" alt="Lukas Oppermann">
 		</td>
 	</tr>
 </table>

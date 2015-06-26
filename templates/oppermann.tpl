@@ -23,7 +23,7 @@
 				<br /><br /><br />
 			</td>
 			<td id="carriculum_table_top_right">
-				<img src="media/andreas_oppermann.jpg" alt="Andreas Oppermann">
+				<img src="../media/andreas_oppermann.jpg" alt="Andreas Oppermann">
 			</td>
 		</tr>
 	</table>
