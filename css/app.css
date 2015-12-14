@@ -150,6 +150,27 @@
 .o-quote-source:before {
   content: "~ ";
 }
+.o-quote--small{
+
+}
+.o-quote--small::before, .o-quote--small::after{
+    display: none;
+}
+.o-quote--small .o-quote-content {
+  padding: 30px 0;
+  position: relative;
+  z-index: 10;
+  color: #0064a5;
+  font-size: 2rem;
+  line-height: 120%;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  background: white
+}
+.o-quote--small .o-quote-source{
+    background: white;
+}
 
 html {
   font-size: 62.5%;

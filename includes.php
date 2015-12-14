@@ -59,7 +59,7 @@ Class Router {
   }
 
   public function get_template(){
-    if( isset($this->url, $this->menu['by_path']) )
+    if( isset($this->menu['by_path'][$this->url]['template']) )
     {
       return $this->menu['by_path'][$this->url]['template'];
     }

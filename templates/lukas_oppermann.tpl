@@ -26,7 +26,7 @@
 		</td>
 	</tr>
 </table>
-<blockquote class="o-quote">
+<blockquote class="o-quote--small">
 	<p class="o-quote-content o-quote-content--not-last">Um etwas zu gestalten/verändern, muss man es erst in seiner vollkommenen Komplexität erfassen</p>
 	<cite class="o-quote-source">Lukas Oppermann</cite>
 </blockquote>
