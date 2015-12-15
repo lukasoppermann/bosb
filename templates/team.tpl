@@ -16,6 +16,11 @@
 	<li class="o-list__item">Rollenbeschreibung</li>
 	<li class="o-list__item">Durchführung von Rollenverhandlungen und Rollendifferenzierung innerhalb des Teams.</li>
 </ul>
+	<p class="o-paragraph">Teamentwicklung als Instrument der Personalentwicklung:</p>
+<ul class="o-list o-list--none">
+	<li class="o-list__item">Planung und Durchführung von Aktivitäten im Unternehmen für die Entwicklung von Abteilungen und Teams</li>
+	<li class="o-list__item">Planung und Durchführung von "outdoor-Aktivitäten" für Abteilungen und Teams</li>
+</ul>
 
 <h2 class="o-headline o-headline--secondary">Inhousetraining</h2>
 

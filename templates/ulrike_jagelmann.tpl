@@ -9,11 +9,12 @@
 				<li class="o-list__item">Systemische Beraterin</li>
 				<li class="o-list__item">Trainerin</li>
 			</ul>
-			<p class="o-paragraph">Gesellschafterin der Beratungssozietät Oppermann<br /></p>
+			<p class="o-paragraph">Gesellschafterin der Beratungssozietät Oppermann<br /><a href="../media/ujprofil.pdf" target="_blank">(Download: Profil)</a></p>
 			<h3 class="o-headline">Aktuelle Arbeitsfelder</h3>
 				<ul class="o-list o-list--none">
-					<li class="o-list__item">Coaching</li>
+					<li class="o-list__item">Organisationsberatung</li>
 					<li class="o-list__item">Trainings</li>
+					<li class="o-list__item">Coaching</li>
 					<li class="o-list__item">Team- und Personalentwicklung</li>
 				</ul>
 				<h3 class="o-headline">Methodischer Hintergrund</h3>
@@ -37,7 +38,7 @@
 		</td>
 		<td class="o-table__cell">
 			Beratungssozietät Oppermann<br/>
-			Gesellschafterin, Beraterin, Trainerin
+			Beraterin, Trainerin, Gesellschafterin
 		</td>
 	</tr>
 	<tr>
@@ -50,7 +51,7 @@
 	</tr>
 	<tr>
 		<td class="o-table__cell o-table__cell--quiet">
-			2013
+
 			</td>
 		<td class="o-table__cell">
 			Personalreferentin (4 Mon. Ausbildung) - IfM, Berlin
@@ -66,7 +67,7 @@
 	</tr>
 	<tr>
 		<td class="o-table__cell o-table__cell--quiet">
-			2011
+
 			</td>
 		<td class="o-table__cell">
 			Systemische Beraterin <br/>
@@ -99,7 +100,7 @@
 	</tr>
 	<tr>
 		<td class="o-table__cell o-table__cell--quiet">
-			2006
+
 			</td>
 		<td class="o-table__cell">
 			Ausbildung zur geprüften Ausbilderin nach AEVO, IHK Potsdam</br>
@@ -108,7 +109,7 @@
 	</tr>
 	<tr>
 		<td class="o-table__cell o-table__cell--quiet">
-			2006
+
 			</td>
 		<td class="o-table__cell">
 			Diplom-Betriebswirtin (Schwerpunkt Industrie)
@@ -122,6 +123,11 @@
 			Ausstellungs-, Touristenführung - NABU Deutschland (Storchenwarte) </br>
 			freiwilliges ökologisches Jahr
 		</td>
+		<tr>
+			<td class="o-table__cell o-table__cell--quiet">
+
+			</td>
+		</tr>
 	</tr>
 </table>
 </div>

@@ -1,5 +1,15 @@
 @import "colors.less";
-
+.u-right{
+    float: right;
+}
+@media (max-width: 400px) {
+    .u-mobile-left{
+        float: left;
+    }
+}
+.u-padding-vert-10{
+    padding: 10px 0;
+}
 #cv_hack_body{
   // font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -9,7 +19,6 @@
 
 #body {
 	min-height: 100%;
-  min-width: 600px;
 	height: auto;
 	max-width: 1000px;
   display: flex;
@@ -31,7 +40,6 @@
 }
 /* End IE Hack */
 #head{
-	height: 177px;
 	padding-left: 0px;
 	background: #ffffff;
   flex: 0 0 100%;
@@ -40,15 +48,16 @@
 }
 #logo{
 	height: 95px;
+    min-width: 10.5rem;
 	flex: 0 0 25%;
 	font-size: 12px;
 	background: #0065a4;
 	color: #fff;
 	position: relative;
-  margin-left: auto;
+    margin-left: auto;
 }
 .logo-type{
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: bold;
 	position: absolute;
 	bottom: 0px;
@@ -57,7 +66,7 @@
 .logo-type-outside{
   font-weight: normal;
   color: #0065a4;
-  left: -170px;
+  left: -165px;
 }
 * html #logo{
 	margin-top: -29px;
@@ -65,10 +74,43 @@
 #logo_img_bw{
 	display: none;
 }
+@media screen and (max-width:700px) {
+    #logo{
+        height: 5rem;
+    }
+    .logo-type{
+        font-size: 1.6rem;
+    }
+    .logo-type-outside{
+        left: -13.5rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .logo-type-outside{
+        color: white;
+        left: .5rem;
+        top: .5rem;
+    }
+    #logo{
+        min-width: 15.5rem;
+    }
+}
 #content{
-  flex: 0 0 75%;
-	padding: 50px 50px 0 0;
+    box-sizing: border-box;
+    flex: 0 0 100%;
+    max-width: 90rem;
+	padding: 30px 50px 0 1.6rem;
 	background-color: #ffffff;
+}
+@media screen and (max-width:700px) {
+    #content{
+    	padding: 30px 1.6rem 0 1.6rem;
+    }
+}
+@media screen and (max-width:400px) {
+    #content{
+        padding: 30px 0 0 0;
+    }
 }
 /* Hack for IE */
 * html #content {
@@ -78,34 +120,34 @@
 }
 /* End IE Hack */
 /*///////////////////////////////////////Menue///////////////////////////////////////////*/
-#menue{
-	height: 31px;
-	margin-top: 50px;
-	border-bottom: 1px solid @light-grey;
-	font: 14px "Verdana",sans-serif;
-	list-style: none;
-  flex: 0 0 100%;
-
-}
-#menue li{
-	float: left;
-	text-align: center;
-	float: left;
-	padding: 0px 20px 10px 20px;
-}
-#menue li a{
-	border-bottom: 3px solid #ffffff;
-	color: @medium-grey;
-	text-decoration: none;
-}
-#menue li a:hover{
-	border-bottom: 3px solid #0065a4;
-}
-#menue li a.is-active, #menue li a.is-active:hover{
-	border-bottom: 3px solid #0065a4;
-	color: #2d2c2c;
-	text-decoration: none;
-}
+// #menue{
+// 	height: 31px;
+// 	margin-top: 50px;
+// 	border-bottom: 1px solid @light-grey;
+// 	font: 14px "Verdana",sans-serif;
+// 	list-style: none;
+//   flex: 0 0 100%;
+//
+// }
+// #menue li{
+// 	float: left;
+// 	text-align: center;
+// 	float: left;
+// 	padding: 0px 20px 10px 20px;
+// }
+// #menue li a{
+// 	border-bottom: 3px solid #ffffff;
+// 	color: @medium-grey;
+// 	text-decoration: none;
+// }
+// #menue li a:hover{
+// 	border-bottom: 3px solid #0065a4;
+// }
+// #menue li a.is-active, #menue li a.is-active:hover{
+// 	border-bottom: 3px solid #0065a4;
+// 	color: #2d2c2c;
+// 	text-decoration: none;
+// }
 h1{
 	padding-bottom: 8px;
   font-weight: 200;

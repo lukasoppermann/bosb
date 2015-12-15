@@ -11,7 +11,6 @@
 {/if}
 <br /><br />
 Bitte melden sie uns diesen Fehler, damit wir uns um die Behebung des selbigen kümmern können.<br /><br />
-{$mail_fehler}
+<a href="mailto:mail@bosb.de">mail@bosb.de</a>
 
 	{include file="../templates/footer.tpl"}
-

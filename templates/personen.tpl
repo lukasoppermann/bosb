@@ -13,8 +13,22 @@
 <p class="o-paragraph">Wir stehen in der persönlichen Beratung ganz an Ihrer Seite, arbeiten an Ihren Vorstellungen und Bedürfnissen und unterstützen Sie kompromisslos in Ihren Interessen und Wünschen.
 Auch hier behalten wir das Ganze für Sie im Blick und machen auf "unüberbrückbare Widersprüche" aufmerksam.
 </p>
+<h1 class="o-headline o-headline--secondary">Personalentwicklung für Führungskräfte und Mitarbeiter</h1>
+<p class="o-paragraph">Die führungskräfte- und mitarbeiterorientierte Personalentwicklung umfasst die Schwerpunkte unternehmensdefinierte Führungsstile, Optimierung der Sozialkompetenz sowie Karriereplanung, -entwicklung:</p>
+
+<ul class="o-list o-list--none">
+	<li class="o-list__item">Entwicklung von Programmen für die Erarbeitung und Verfeinerung von unternehmensdefinierten Führungsstilen</li>
+	<li class="o-list__item">unternehmensstrategisch angelegte Karriereplanung für -zukünftige- Führungskräfte</li>
+	<li class="o-list__item">Persönlichkeitsanalyse und -training</li>
+	<li class="o-list__item">Optimierung des Umgangs mit Mitarbeitern und Sensibilisierung für die eigene inter- und intrasoziale Wirkungen innerhalb von Machtverhältnissen</li>
+	<li class="o-list__item">Coaching von zukünftigen Führungskräften zur Vorbereitung auf ihre neue Rolle</li>
+	<li class="o-list__item">Programme für Führungskräfteentwicklung</li>
+	<li class="o-list__item">Programme für Auszubildende zur Vorbereitung auf die Berufsrolle im Unternehmen</li>
+	<li class="o-list__item">Kommunikationstraining: Wie spreche ich mit meinem - Vorgesetzten - Mitarbeiter - Auszubildenden</li>
+
+</ul>
 <h1 class="o-headline o-headline--secondary">Coaching</h1>
-<p class="o-paragraph">Persönlichkeitsorientiertes Coaching umfasst die Schwerpunkte Führungsstil, das Verhältnis zwischen Vorgesetztem und Mitarbeitern, Karriereplanung und Sozialkompetenz:</p>
+<p class="o-paragraph">Persönlichkeitsorientiertes Coaching umfasst die Schwerpunkte Analyse und Verbesserung des Führungsstils, das Verhältnis zwischen Vorgesetztem und Mitarbeitern, perönliche Karriereplanung und Verfeinerung der eigenen Sozialkompetenz:</p>
 
 <ul class="o-list o-list--none">
 	<li class="o-list__item">Erarbeitung und Verfeinerung von Führungsstilen</li>
@@ -23,6 +37,7 @@ Auch hier behalten wir das Ganze für Sie im Blick und machen auf "unüberbrück
 	<li class="o-list__item">inter- und intrasoziale Wirkungen von Machtverhältnissen</li>
 	<li class="o-list__item">Persönlichkeitsanalyse und -training</li>
 	<li class="o-list__item">strategisch angelegte Karriereplanung</li>
+	<li class="o-list__item">Vorbereitung auf neue Arbeitssituationen oder auf die neue Rolle im Unternehmen</li>
 	<li class="o-list__item">Vorbereitungen und aktive Begleitung von Verhandlungen.</li>
 	<li class="o-list__item">Bedarfs- und Situationsanalyse</li>
 </ul>

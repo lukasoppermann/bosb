@@ -4,6 +4,7 @@
   width: 100%;
   line-height: 130%;
   display: flex;
+  flex-wrap: wrap;
   &--horizontal{
 
   }
@@ -16,7 +17,7 @@
   &__link{
     color: @medium-grey;
     text-decoration: none;
-    padding: .7rem 1rem;
+    padding: .7rem 1.6rem;
     width: 100%;
     height: 100%;
     transition: color .5s;
@@ -24,4 +25,137 @@
   &__link.is-active, &__link:hover{
     color: @blue;
   }
+}
+.c-main-menu{
+    margin-top: 2rem;
+    height: 4.4rem;
+    border-bottom: 1px solid @light-grey;
+    font: 14px "Verdana",sans-serif;
+    list-style: none;
+    flex: 0 0 100%;
+    .o-menu__link{
+        transition: box-shadow .75s;
+        padding-bottom: 1.6rem;
+        box-shadow: 0px 3px 0 rgba(0, 0, 0, 0);
+    }
+    .o-menu__link:hover{
+        box-shadow: 0px 3px 0 @light-grey;
+    }
+    .o-menu__link.is-active{
+        box-shadow: 0px 3px 0 @blue;
+    }
+}
+.c-mobile-submenu{
+    display: none;
+}
+.c-main-submenu{
+    min-height: 4rem;
+    .o-menu__link{
+        padding-top: .9rem;
+        padding-bottom: 1.1rem;
+    }
+    .o-menu__link.is-active{
+        background: fade(@blue, 5%);
+    }
+}
+@media screen and (max-width:700px) {
+    .c-main-menu{
+        background: rgb(245, 245, 245);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+        z-index: 999;
+        overflow: hidden;
+        opacity: 0;
+        transition: opacity .5s ease;
+        height: 0;
+    }
+    .c-main-menu.is-active{
+        height: auto;
+        opacity: 1;
+    }
+    .c-main-submenu{
+        display: none;
+    }
+    .c-mobile-submenu{
+        height: auto;
+        padding-left: 2rem;
+        display: block;
+    }
+    .c-main-menu .o-menu__link{
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    .o-menu__item{
+        height: auto;
+        flex-basis: 100%;
+        flex-shrink: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    .o-menu__item:last-child{
+        border-bottom: none;
+    }
+    .c-main-menu .o-menu__link.is-active{
+        box-shadow: -3px 0 0 @blue;
+    }
+    .c-mobile-submenu .o-menu__link.is-active{
+        box-shadow: none;
+    }
+}
+
+
+.o-nav__icon {
+  display: none;
+  position: relative;
+  float: left;
+  width: 105px;
+  height: 55px;
+  padding: 15px 65px 0 10px;
+}
+.o-nav__icon:hover {
+    cursor: pointer;
+}
+.o-nav__icon .o-nav__icon__part,
+.o-nav__icon .o-nav__icon__part:after,
+.o-nav__icon .o-nav__icon__part:before {
+  width: 100%;
+  height: 5px;
+  background-color: @blue;
+  transition: all 0.3s;
+}
+.o-nav__icon .o-nav__icon__label{
+    text-transform: uppercase;
+    color: @blue;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.o-nav__icon .o-nav__icon__part {
+    margin-top: 13px;
+    position: relative;
+    display: block;
+}
+.o-nav__icon .o-nav__icon__part:after,
+.o-nav__icon .o-nav__icon__part:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -9px;
+}
+.o-nav__icon .o-nav__icon__part:after{
+    top: 9px;
+}
+.o-nav__icon.is-active .o-nav__icon__part {
+    background-color: transparent;
+}
+.o-nav__icon.is-active .o-nav__icon__part:before {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+.o-nav__icon.is-active .o-nav__icon__part:after {
+    transform: rotate(-45deg) translate(6px, -7px);
+}
+@media screen and (max-width:700px) {
+    .o-nav__icon{
+            display: block;
+    }
 }

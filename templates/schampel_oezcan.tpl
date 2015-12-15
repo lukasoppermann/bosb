@@ -8,13 +8,16 @@
 				<li class="o-list__item">Diplom-Kauffrau</li>
 				<li class="o-list__item">Systemische Beraterin</li>
 				<li class="o-list__item">Trainerin</li>
+				<li class="o-list__item">Coach</li>
+				<li class="o-list__item">Freie Mitarbeiterin der Beratungssozietät Oppermann<br/>
+				<a href="../media/ssoprofil.pdf" target="_blank">(Download: Profil)</a>
 			</ul>
-			<p class="o-paragraph">Freie Mitarbeiterin der Beratungssozietät Oppermann<br /></p>
 			<h3 class="o-headline">Aktuelle Arbeitsfelder</h3>
 				<ul class="o-list o-list--none">
 					<li class="o-list__item">Organisations- und Strategieberatung</li>
 					<li class="o-list__item">Coachings</li>
 					<li class="o-list__item">Team- und Personalentwicklung</li>
+					<li class="o-list__item">Durchführung von (Weiterbildungs-)Seminaren</li>
 				</ul>
 				<h3 class="o-headline">Methodischer Hintergrund</h3>
 			Systemtheorie (Luhmann)
@@ -27,8 +30,8 @@
 </table>
 
 <blockquote class="o-quote o-quote--full-width">
-	<p class="o-quote-content o-quote-content--small o-quote-content--not-last">Ich bin frei, denn ich bin einer Wirklichkeit nicht ausgeliefert, ich kann sie gestalten.</p>
-	<cite class="o-quote-source">Paul Watzlawick</cite>
+	<p class="o-quote-content o-quote-content--not-last">Der Kunde kennt die Lösung. Manchmal kann es nur hilfreich sein, gemeinsam danach zu suchen.</p>
+	<cite class="o-quote-source">Sandra Schampel-Özcan</cite>
 </blockquote>
 <h2 class="o-headline--secondary">Curriculum Vitae</h2>
 <table class="o-table">
@@ -113,6 +116,11 @@
 		<td class="o-table__cell">
 			Studium der Betriebswirtschaftslehre<br/>
 (Schwerpunkt Personal, Organisation und Marketing)
+		</td>
+	</tr>
+	<tr>
+		<td class="o-table__cell o-table__cell--quiet">
+
 		</td>
 	</tr>
 </table>

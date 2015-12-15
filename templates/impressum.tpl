@@ -2,13 +2,14 @@
 	{include file="../templates/header.tpl"}
 
 <h1 class="o-headline o-headline--primary">Impressum</h1>
-Andreas Oppermann<br /><br />
+Andreas Oppermann<br />
 Prinzenallee 22<br />
-13359 Berlin<br /><br />
+13359 Berlin<br />
 Tel.: +49 30 41716801<br />
-E-Mail: {$mail}<br /><br />
-Geschäftsführende Gesellschafter: Andreas Oppermann<br /><br />
-Ust ID Nr. DE299192989<br /><br />
+E-Mail: <a href="mail@bosb.de">mail@bosb.de</a><br /><br />
+Geschäftsführende Gesellschafter: Andreas Oppermann<br />
+der Beratungssozietät Oppermann GbR<br /><br />
+USt-IdNr. DE300552350<br /><br />
 Verantwortlich für Internet und im Sinne des Medienstaatsvertrages: Andreas Oppermann<br /><br />
 Haftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
 <br /><br />

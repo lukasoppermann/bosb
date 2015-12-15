@@ -12,10 +12,16 @@ $smarty = new Smarty();
 $menu = make_menu($menu);
 $router = new Router($_SERVER['REQUEST_URI'], $menu);
 $smarty->assign('router', $router);
+// echo "<pre>";
+// print_r($router);
+// echo "</pre>";
 // define menu
 $smarty->assign('menu', $menu['by_id']);
-// define includes
-$smarty->assign('google_analytics', $google_analytics);
-$smarty->assign('mail', $mail);
+if (isset($menu['by_path'][$router->get_part(0)]['children'])) {
+    $smarty->assign('submenu', $menu['by_path'][$router->get_part(0)]['children']);
+}
+// build title
+$title = $menu['by_path'][$router->get_part(0)]['label'];
+$smarty->assign('title', $title);
 // display templates
 $smarty->display($router->get_template());
