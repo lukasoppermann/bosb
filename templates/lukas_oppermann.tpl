@@ -9,7 +9,7 @@
 			<li class="o-list__item">User Experience Consultant</li>
 			<li class="o-list__item">Freier Dozent</li>
 		</ul>
-		<p class="o-paragraph">veare, Einzelunternehmer <a href="http://vea.re" target="_blank">(Homepage)</a></p>
+		<p class="o-paragraph">veare, Einzelunternehmer <a href="http://vea.re" target="_blank" class="o-link o-link--blue">(website)</a></p>
 		<p class="o-paragraph">freier Mitarbeiter bei längerfristigen Projekten</p>
 		<p class="o-paragraph">fester freier Mitarbeiter der Beratungssozietät Oppermann</p>
 		<h3 class="o-headline">Aktuelle Arbeitsfelder</h3>

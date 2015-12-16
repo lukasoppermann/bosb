@@ -30,20 +30,19 @@ Class Router {
     $this->menu = $menu;
     $this->url = trim($url,'/');
     $this->parts = explode('/',$this->url);
-
   }
 
   public function is_active($part){
     if( trim($part,'/') === '')
     {
-      return '';
+      return 'index';
     }
 
     return strpos($this->url, trim($part,'/')) !== false ? 'is-active' : '';
   }
 
   public function get_part($index){
-    return isset($this->parts[0]) ? $this->parts[0] : FALSE;
+    return isset($this->parts[$index]) && $this->parts[$index] !== "" ? $this->parts[$index] : 'index';
   }
 
 
