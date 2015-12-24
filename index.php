@@ -21,7 +21,10 @@ if (isset($menu['by_path'][$router->get_part(0)]['children'])) {
     $smarty->assign('submenu', $menu['by_path'][$router->get_part(0)]['children']);
 }
 // build title
-$title = $menu['by_path'][$router->get_part(0)]['label'];
+$title = "";
+if( isset($menu['by_path'][$router->get_part(0)]) ){
+    $title = $menu['by_path'][$router->get_part(0)]['label'];
+}
 $smarty->assign('title', $title);
 // display templates
 $smarty->display($router->get_template());
